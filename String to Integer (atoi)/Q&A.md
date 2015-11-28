@@ -17,7 +17,7 @@ If no valid conversion could be performed, a zero value is returned. If the corr
 
 -.-. --- -.. . -....- .. ... -....- .--. --- . - .-. -.--
 
-考虑以下几种情况就可以了
+鑰冭檻浠ヤ笅鍑犵鎯呭喌灏卞彲浠ヤ簡
 
 1. < Integer.MIN_VALUE
 2. > Integer.MAX_VALUE
@@ -25,5 +25,5 @@ If no valid conversion could be performed, a zero value is returned. If the corr
 4. +123
 5. +
 6. 123abc
-7. _ // 空字符串
+7. _ // 绌哄瓧绗︿覆
 8. _123

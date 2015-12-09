@@ -10,4 +10,6 @@ You may assume that the array is non-empty and the majority element always exist
 
 一个简单的原理，取出两个数字，假设这两个数字不一样，那么除去这两个数字，剩余的数组的 Majority Element 不会变。
 
-一次遍历，使用 `ans` `count` 分别记录当前的 Majority Element 以及它的个数，
+一次遍历，使用 `ans` `count` 分别记录当前的 Majority Element 以及它的个数，遇到与 `ans` 相等的或者此时 `count` 为 0，将 `count` 加 1，不等则减 1。
+
+复杂度 `O(n)`。

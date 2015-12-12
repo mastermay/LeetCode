@@ -8,12 +8,17 @@ Given two words (beginWord and endWord), and a dictionary's word list, find the 
 For example,
 
 > Given:
+
 > beginWord = "hit"
+
 > endWord = "cog"
+
 > wordList = ["hot","dot","dog","lot","log"]
+
 > As one shortest transformation is "hit" -> "hot" -> "dot" -> "dog" -> "cog",
+
 > return its length 5.
 
 -.-. --- -.. . -....- .. ... -....- .--. --- . - .-. -.--
 
-使用 BFS 遍历，如果第二次访问到某个单词，那么第一次访问它的路径更短，所以可以将访问过的单词直接从集合中删除即可。
+使用 BFS 遍历，如果第二次访问到某个单词，显然第一次访问它的路径更短，所以可以将访问过的单词直接从集合中删除即可。

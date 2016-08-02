@@ -20,4 +20,4 @@ There are a total of 4 courses to take. To take course 3 you should have finishe
 
 -.-. --- -.. . -....- .. ... -....- .--. --- . - .-. -.--
 
-BFS 进行拓扑排序，注意下无解的判断。
+BFS/DFS 进行拓扑排序，注意下无解的判断。
